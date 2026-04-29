@@ -1,1 +1,3 @@
-# Mondy-2.0
+# Mon-D
+This is a major extension of the NASA JPL OSR (Open source rover). On top of the mechanical hardware of the OSR, Mon-D adds an Oak-D Pro stereo camera, pitch-pan mount for the camera, Waveshare Ro-Arm m3 robotic arm, and a Waveshare Audio Board microphone/speaker controller.
+On top of the extra hardware, Mon-D utilizes the Oak-D Pro for image recognition and offloading stereo images for SLAM-mapping and local localization. It can connect to an external LLM for high-level decision making and human communication, with the voice input and speaker output. Mon-D uses RTAB Map for high-level navigation and pathfinding between waypoints.
